@@ -1,0 +1,28 @@
+{
+  "name": "bp-signaling-server",
+  "version": "1.1.0",
+  "description": "websocket",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test signaling-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janatrelakova/bp-signaling-server.git"
+  },
+  "author": "Jana Trelakova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janatrelakova/bp-signaling-server/issues"
+  },
+  "homepage": "https://github.com/janatrelakova/bp-signaling-server#readme",
+  "dependencies": {
+    "lib0": "^0.2.46",
+    "ws": "^2.3.1",
+    "wss": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.0"
+  }
+}
